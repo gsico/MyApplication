@@ -6,10 +6,11 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="19dp"
+        android:layout_width="100dp"
         android:layout_height="36dp"
         android:layout_weight="1"
                 android:text="Button" />
+
     <android.support.v7.widget.RecyclerView
         android:id="@+id/movies_recycler_view"
         android:layout_width="match_parent"

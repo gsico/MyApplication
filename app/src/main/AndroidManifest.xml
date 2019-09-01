@@ -21,7 +21,10 @@
         </activity>
 
         <activity android:name=".activity.Main2Activity" >
-            <!--Default Intent Filter-->
+            <intent-filter>
+                <action android:name=".activity.Main2Activity"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
 
         </activity>
     </application>
